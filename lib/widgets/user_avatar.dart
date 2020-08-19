@@ -2,7 +2,7 @@ import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
 
 class UserAvatar extends StatelessWidget {
-  const UserAvatar(String s, {Key key, this.avatarLink}) : super(key: key);
+  const UserAvatar(this.avatarLink);
 
   final String avatarLink;
 

@@ -50,7 +50,8 @@ class _FeedState extends State<Feed> {
         children: <Widget>[
           Row(
             children: [
-              UserAvatar('https://skill-branch.ru/img/speakers/Adechenko.jpg'),
+              UserAvatar(
+                  'https://st3.depositphotos.com/3557671/12516/v/950/depositphotos_125169086-stock-illustration-man-with-beard-icon-cartoon.jpg'),
               SizedBox(width: 6),
               Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
