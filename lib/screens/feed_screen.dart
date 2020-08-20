@@ -33,11 +33,21 @@ class _FeedState extends State<Feed> {
 
   Widget _buildItem() {
     return Column(
+      crossAxisAlignment: CrossAxisAlignment.start,
       children: <Widget>[
         Photo(
           photoLink: kFlutterDash,
         ),
         _buildPhotoMeta(),
+        Padding(
+          padding: EdgeInsets.symmetric(horizontal: 10, vertical: 5),
+          child: Text(
+            'This is Flutter dash. I love him! :)',
+            maxLines: 3,
+            overflow: TextOverflow.ellipsis,
+            style: AppStyles.h3.copyWith(color: AppColors.manatee),
+          ),
+        ),
       ],
     );
   }

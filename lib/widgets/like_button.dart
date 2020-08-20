@@ -41,7 +41,7 @@ class _LikeButtonState extends State<LikeButton> {
         padding: EdgeInsets.all(8),
         child: Row(
           children: <Widget>[
-            Icon(isLiked ? AppIcons.heart_empty : AppIcons.heart),
+            Icon(isLiked ? AppIcons.heart : AppIcons.heart_empty),
             SizedBox(width: 4.21),
             Container(
                 width: 20,
