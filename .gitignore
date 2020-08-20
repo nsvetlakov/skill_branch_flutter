@@ -5,6 +5,7 @@
 *.swp
 .DS_Store
 .atom/
+
 .buildlog/
 .history
 .svn/
@@ -29,7 +30,7 @@
 .pub-cache/
 .pub/
 /build/
-
+/windows/
 # Web related
 lib/generated_plugin_registrant.dart
 
