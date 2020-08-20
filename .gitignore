@@ -31,6 +31,7 @@
 .pub/
 /build/
 /windows/
+/windows_old/
 # Web related
 lib/generated_plugin_registrant.dart
 
